@@ -1,6 +1,7 @@
-const $menu = document.querySelector(".menu");
+const $menu = document.querySelector(".nav");
 const $navBar = document.querySelector(".navbar");
 
-$menu.addEventListener("click", () =>{
-    $navBar.classList.toggle("navbar__active");
-});
+$menu.addEventListener("click", function() {
+        $navBar.classList.toggle("navbar__active");
+        console.log("oi");
+    });
