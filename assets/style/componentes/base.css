@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Rubik:wght@400;500;700&display=swap');
+@import url(header.css);
+
+/*
+font-family: 'Inter', sans-serif;
+font-family: 'Rubik', sans-serif;
+*/
+
+:root {
+    --azul: #00A3FF;
+    --branco: #FFF;
+    --cinza: #BFBFBF;
+    --dark: #0B1421;
+    --dark200: #151B26;
+}
+
+.container {
+    background-color: var(--dark);
+    padding: 24px;
+}
