@@ -63,7 +63,6 @@ ul li:last-child {
 
 .pesquisa {
     display: flex;
-    justify-content: space-evenly;
     overflow-x: scroll;
     margin-top: 2rem;
     gap: 12px;
