@@ -10,9 +10,9 @@
 
 .att__animes {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
     row-gap: 2rem;
-    justify-content: space-between;
 }
 
 .att__titulo {
