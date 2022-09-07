@@ -1,0 +1,73 @@
+.atualizacoes {
+    margin-top: 40px;
+}
+
+.att__card-anime {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.att__animes {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 2rem;
+    justify-content: space-between;
+}
+
+.att__titulo {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: var(--branco);
+    margin-bottom: 28px;
+}
+
+.att__card {
+    height: 195px;
+    width: 144px;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.att__card-ep{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: var(--branco);
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.att__card-nome{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: var(--branco);
+}
+
+.btn-vermais {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--dark200);
+    border-radius: 4px;
+    color: var(--branco);
+    width: 312px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 2rem;
+    transition: 400ms ease-in-out;
+}
+
+.btn-vermais:hover {
+    background-color: #2a313d;
+}
+
+.hide {
+    display: none;
+}
