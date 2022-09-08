@@ -1,0 +1,37 @@
+.recentes__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+    row-gap: 2rem;
+}
+
+.recentes__card-anime {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.recentes__card {
+    height: 195px;
+    width: 145px;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.recentes__card-nome{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: var(--branco);
+}
+
+.direitos {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: var(--branco);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 24px;
+}
