@@ -19,7 +19,7 @@
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
     color: var(--branco);
-    margin-bottom: 28px;
+    padding: 28px 0;
 }
 
 .att__card {
@@ -54,7 +54,7 @@
     background-color: var(--dark200);
     border-radius: 4px;
     color: var(--branco);
-    width: 312px;
+    width: 100%;
     height: 40px;
     display: flex;
     align-items: center;
