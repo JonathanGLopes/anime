@@ -23,17 +23,19 @@
     transition: transform 200ms linear;
     transform: translateX(-150%);
     position: absolute;
+    z-index: 2;
 }
 
 .navbar ul {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.3rem;
     text-align: center;
     padding: 1rem;
     background-color: var(--azul);
     font-family: 'Rubik', sans-serif;
     border-radius: 6px;
+    height: 130px;
 }
 
 li {
