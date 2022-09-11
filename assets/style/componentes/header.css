@@ -128,16 +128,13 @@ ul li:last-child {
     color: var(--cinza);
 }
 
+.swiper {
+    margin-top: 40px;
+}
+
 .novidades__imagem {
-    background-image: linear-gradient(to bottom, transparent 1%, rgb(10, 10, 10, 0.8) 100%), url(/assets/img/banner/one-punch-man.png);
-    background-size: cover;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    margin-top: 20px;
-    width: 100%;
-    height: 164px;
-    position: relative;
     border-radius: 8px;
+    height: 165px;
 }
 
 .novidades__destaque {
