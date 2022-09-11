@@ -120,6 +120,7 @@ ul li:last-child {
     font-size: 18px;
     font-family: 'Rubik', sans-serif;
     color: var(--branco);
+    margin-bottom: 10px;
 }
 
 .novidades__assistir {
