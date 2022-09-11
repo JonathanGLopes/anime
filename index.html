@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="/assets/style/config/reset.css">
     <link rel="stylesheet" href="/assets/style/componentes/base.css">
     <title>Ani.me</title>
@@ -34,10 +35,41 @@
             <article class="novidades">
                 <h2 class="novidades__titulo">Últimas novidades</h2>
                 <span class="novidades__assistir">O que você vai assistir hoje?</span>
-                <div class="novidades__imagem">
-                    <h1 class="novidades__destaque">ONE PUNCH MAN TERÁ 3° TEMPORADA</h1>
-                    <p class="novidades__descricao">Como relatado anteriormente, a franquia baseada no mangá escrito por ONE e ilustrado por Yusuke Murata, One Punch […]</p>
-                </div>
+                <!-- SLIDER -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                        <div class="swiper-slide">
+                            <h1 class="novidades__destaque">ONE PUNCH MAN TERÁ 3° TEMPORADA</h1>
+                            <p class="novidades__descricao">Como relatado anteriormente, a franquia baseada no mangá escrito por ONE e ilustrado por Yusuke Murata, One Punch […]</p>
+                            <img src="assets/img/banner/one-punch-man.png" alt="Banner One Punch man" class="novidades__imagem">
+                        </div>
+                        <div class="swiper-slide">
+                            <h1 class="novidades__destaque">ESTREIA DE CHAINSAW MAN !!</h1>
+                            <p class="novidades__descricao">O aclamado mangá de Tatsuki Fujimoto finalmente irá ganhar sua adaptação em anime em outubro de 2022.</p>
+                            <img src="assets/img/banner/chainsaw.jpg" alt="Banner Chainsaw Man" class="novidades__imagem">
+                        </div>
+                        <div class="swiper-slide">
+                            <h1 class="novidades__destaque">BLEACH - A GUERRA DE MIL ANOS</h1>
+                            <p class="novidades__descricao">Anos após o fim do seu anime, Bleach retorna para sua ultima temporada com a adaptação da guera de mil anos. </p>
+                            <img src="assets/img/banner/bleach.jpg" alt="Banner Bleach" class="novidades__imagem">
+                        </div>
+                        <div class="swiper-slide">
+                            <h1 class="novidades__destaque">6° TEMPORADA DE MY HERO ACADEMIA</h1>
+                            <p class="novidades__descricao">O querido anime de Boku no hero retorna para sua 6° temporada em outubro de 2022, adaptando um arco muito querido pelo fandom.</p>
+                            <img src="assets/img/banner/boku.jpg" alt="Banner Boku no Hero Academia" class="novidades__imagem">
+                        </div>
+
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                  </div>
             </article>
          </header>
          <section class="atualizacoes">
@@ -177,5 +209,7 @@
 
 
     <script src="/assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/assets/js/slider.js"></script>
 </body>
 </html>
