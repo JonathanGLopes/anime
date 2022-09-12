@@ -2,7 +2,7 @@
 
 ----- HEADER ----- */
 
-@media screen and (min-width: 760px){
+@media screen and (min-width: 768px){
     .logo, .bi-list, .bi-search {font-size: 2rem;}
     .pesquisa {gap: 1.3rem;}
     .letra {padding: .5rem 1.5rem;}
@@ -17,4 +17,79 @@
         line-height: 26px;
     }
     .swiper{margin-top: 40px;}
+
+    /* ----- ATUALIZAÇÕES e RECENTES ----- */
+    .att__animes, .recentes__container {grid-template-columns: 1fr 1fr 1fr;}
+}
+
+
+ /* ----- DESKTOP ----- */
+@media screen and (min-width: 1280px){ 
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--dark);
+    }
+
+    .container {
+        max-width: 1280px;
+    }
+
+    /* HEADER  */
+    ul li:last-child{display: block;}
+    .menu{display: none;}
+    .inicio {
+        align-items: center;
+    }
+    .inicio ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        color: var(--branco);
+    }
+
+    .navbar {
+        position:static;
+        transform: none;
+        width: auto;
+    }
+    .navbar ul {
+        display: flex;
+        flex-direction: row;
+        background-color: var(--dark);
+        padding: 0;
+        height: 0;
+    }
+
+    .navbar li:hover{
+        color: var(--azul);
+        transition: 300ms;
+    }
+
+    .buscar {
+        padding: 8px 100px 8px 24px;
+        border-radius: 37px;
+        border: none;
+        background-color: var(--dark200);
+        color: var(--branco);
+    }
+
+    .buscar::placeholder{
+        color: var(--branco);
+    }
+
+    .pesquisa{gap: 3.5rem;}
+    .letra {
+        padding: .5rem 2.5rem;
+        border-radius: 1rem;
+    }
+
+    .novidades__imagem {height: 400px;}
+    .novidades__destaque{top: 260px;}
+    .novidades__descricao{top: 300px;}
+
+    /* ATUALIZAÇÕES */
+
 }
