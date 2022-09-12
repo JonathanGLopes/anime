@@ -30,6 +30,11 @@
     margin-bottom: 8px;
 }
 
+.att__card-img {
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
+}
+
 .att__card-ep{
     font-family: 'Inter', sans-serif;
     font-size: 12px;
