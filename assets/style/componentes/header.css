@@ -136,6 +136,8 @@ ul li:last-child {
 .novidades__imagem {
     border-radius: 8px;
     height: 165px;
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
 }
 
 .novidades__destaque {
