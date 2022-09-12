@@ -90,6 +90,32 @@
     .novidades__destaque{top: 260px;}
     .novidades__descricao{top: 300px;}
 
-    /* ATUALIZAÇÕES */
+    /* ATUALIZAÇÕES e RECENTES */
+    .att__animes, .recentes__container{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        row-gap: 6rem;
+    }
 
+    .att__card-img, .att__card, .recentes__card {
+        width: 188px;
+    }
+
+    .att__card-ep {bottom: -40px;}
+
+    .btn-vermais {
+        width: 182px;
+        margin: 60px auto 0 auto;
+    }
+
+    .recentes__card-anime {position: relative;}
+    .recentes__card-nome {position: absolute; bottom: -35px;}
+
+    .recentes__card-img {
+        -webkit-mask-image: linear-gradient(black, transparent);
+        mask-image: linear-gradient(black, transparent);
+    }
+
+    .direitos {
+        margin-top: 5rem;
+    }
 }
