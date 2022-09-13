@@ -13,6 +13,27 @@
     width: 100%;
 }
 
+.trailer__info-wrapper {
+    display: flex;
+    gap: 40px;
+}
+
+/* HABILITADOS APENAS NO DESKTOP */
+.trailer__assistidos, .trailer__capa {
+    display: none;
+}
+
+.trailer__assistidos-card {
+    display: flex;
+    background-color: var(--dark200);
+    width: 291px;
+    margin-top: 14px;
+}
+
+.first-card {
+    margin-top: 0;
+}
+
 .trailer__info {
     margin-top: 30px;
     display: flex;
@@ -46,4 +67,39 @@
     font-size: 12px;
     line-height: 19px;
     font-family: var(--inter);
+}
+
+.comentarios{margin-top: 2rem;}
+
+.comentarios__titulo {
+    font-size: 1rem;
+    font-family: var(--rubik);
+    color: var(--branco);
+    margin-bottom: 40px;
+}
+
+.primeiro{border-bottom: 2px solid var(--dark200); padding-bottom: 15px; margin-bottom: 10px;}
+
+.comentarios__user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.comentarios__user-nome{
+    font-size: 12px;
+    color: var(--branco);
+    font-family: var(--rubik);
+}
+
+.comentarios__user-texto {
+    font-size: 12px;
+    color: var(--cinza);
+    font-family: var(--inter);
+}
+
+.comentarios__texto-wrap {
+    display: flex;
+    gap: 9px;
+    flex-direction: column;
 }
