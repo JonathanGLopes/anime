@@ -3,6 +3,7 @@
 @import url(atualizacoes.css);
 @import url(recentes.css);
 @import url(media.css);
+@import url(assistir.css);
 
 /*
 font-family: 'Inter', sans-serif;
@@ -15,6 +16,8 @@ font-family: 'Rubik', sans-serif;
     --cinza: #BFBFBF;
     --dark: #0B1421;
     --dark200: #151B26;
+    --rubik: 'Rubik', sans-serif;
+    --inter: 'Inter', sans-serif;
 }
 
 .container {
