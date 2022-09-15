@@ -10,6 +10,8 @@
 }
 
 @media screen and (min-width: 1280px){
+    .letra:hover {background-color: var(--dark200);}
+    .btn-vermais{width: 300px;}
     .trailer__assistidos, .trailer__capa {display: block;} 
     .btn-assistir{display: none;}
     .relacionados{margin-top: 80px;}
