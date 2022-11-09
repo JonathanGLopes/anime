@@ -15,7 +15,7 @@ Conheça a Ani.me, uma plataforma de animes com diversos lançamentos exclusivos
   
   ### Captura de tela
   
-  - Uma demo da tela onde o usuário pode assistir o anime que escolher.
+  - Uma demonstração da tela onde o usuário está acessando o anime escolhido.
   <p align="center">
       <img src="https://cdn.discordapp.com/attachments/694618905838092319/1020414188142723092/Capturar.JPG" alt="preview.png"/>
  </p>
