@@ -24,3 +24,9 @@ Conheça a Ani.me, uma plataforma de animes com diversos lançamentos exclusivos
   <p align="center">
       <img src="https://cdn.discordapp.com/attachments/694618905838092319/1020511084630786078/mobile23.jpg" alt="preview.png"/>
  </p>
+ 
+ ### Link para acesso:
+ - https://anime-psi.vercel.app/
+ 
+ ### Status:
+ - Finalizado.
