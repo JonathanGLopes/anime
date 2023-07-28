@@ -10,7 +10,7 @@ Conheça a Ani.me, uma plataforma de animes com diversos lançamentos exclusivos
  - Projeto se baseia numa plataforma fictícia de anime, se inspirando em sites como a Crunchyroll, a maior plataforma de assinatura no presente momento. O mesmo foi proposto como desafio na comunidade Codelândia, feita pelo Iuri Silva (@iuricode).
  
  ### Tecnologias utilizadas
-  - Toda página foi desenvolvida utilizando HTML5, CSS3 e JavaScript. O desenvolvimento foi em mobile first e na parte de responsividade os breakpoins dela são em 768px e 1028px.
+  - Toda página foi desenvolvida utilizando HTML, CSS e JavaScript. O desenvolvimento foi em mobile first e na parte de responsividade os breakpoins dela são em 768px e 1028px.
   O slider foi feito utilizando o Swiper JS, uma ferramenta que auxilia na criação do carrossel de imagens.
   
   ### Captura de tela
